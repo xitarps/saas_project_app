@@ -121,7 +121,7 @@ Rails.application.configure do
   # CONFIGURE EMAIL
   config.action_mailer.delivery_method = :smtp
 
-  host = 'localhost:3000'
+  host = 'https://saas-project-app-x.herokuapp.com/'
   config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 
 
